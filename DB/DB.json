@@ -1,0 +1,55 @@
+[{
+  "id": 1,
+  "age": 2,
+  "price": 20000,
+  "img": "cat 1.jpg",
+  "name": "Кот полосатый",
+  "color": "Коричневый окрас",
+  "paw": 4,
+  "soldout": true
+}, {
+  "id": 2,
+  "age": 4,
+  "price": 40000,
+  "img": "cat 2.jpg",
+  "name": "Кот бенгальский",
+  "color": "Коричневый окрас",
+  "paw": 4,
+  "sale": 30,
+  "like": true
+}, {
+  "id": 3,
+  "age": 3,
+  "price": 25000,
+  "img": "cat 3.jpg",
+  "name": "Кот шотландский",
+  "color": "Коричневый окрас",
+  "paw": 4
+}, {
+  "id": 4,
+  "age": 1,
+  "price": 10000,
+  "img": "cat 3.jpg",
+  "name": "Кот сибирский",
+  "color": "Коричневый окрас",
+  "paw": 4,
+  "soldout": true
+}, {
+  "id": 5,
+  "age": 8,
+  "price": 35000,
+  "img": "cat 1.jpg",
+  "name": "Кот полосатый",
+  "color": "Коричневый окрас",
+  "paw": 4,
+  "sale": 40,
+  "like": true
+}, {
+  "id": 6,
+  "age": 6,
+  "price": 19000,
+  "img": "cat 2.jpg",
+  "name": "Кот британский",
+  "color": "Коричневый окрас",
+  "paw": 4
+}]

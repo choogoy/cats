@@ -1,0 +1,156 @@
+.footer {
+  background: #1F2021;
+  color: #ffffff;
+  padding: 83px 0 92px;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-text {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  margin-bottom: 26px;
+}
+
+.footer-description {
+  font-size: 28px;
+  line-height: 91.2%;
+  max-width: 300px;
+}
+
+.form-input {
+  display: flex;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.input {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  background: #FFFFFF;
+  border: none;
+  border-radius: 10px;
+  padding: 24px 33px;
+  margin-right: 16px;
+  width: 300px;
+  &::placeholder {
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+  }
+}
+
+.button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  background: #6EBBD3;
+  border-radius: 10px;
+  padding: 24px 75px;
+  transition: all 0.3s;
+  &:hover {
+    opacity: 0.9;
+  }
+  &:disabled {
+    background:#CCCCCC;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+.label {
+  position: relative;
+}
+
+.label-text {
+  padding-left: 36px;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.checkbox {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.style {
+  cursor: pointer;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: #FFFFFF;
+  border-radius: 3px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.checkbox:checked + .style {
+    background-color: #6EBBD3;
+    background-image: url('../images/checkbox.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (max-width: 1230px) {
+  .footer .container {
+    max-width: 810px;
+  }
+
+  .footer-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .subscribe {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 830px) {
+  .footer .container {
+    max-width: 650px;
+  }
+}
+
+@media (max-width: 670px) {
+  .footer .container {
+    max-width: 400px;
+  }
+
+  .footer-text {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .footer-description {
+    font-size: 19px;
+    line-height: 22px;
+  }
+
+  .form-input {
+    flex-wrap: wrap;
+  }
+
+  .input {
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .button {
+    width: 100%;
+  }
+  
+}
